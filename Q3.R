@@ -35,9 +35,9 @@ g2_odegree = degree(g2, mode = "out")
 g2_totdegree = degree(g2, mode = "all")
 
 #Plot the graphs of in/out/total degree versus visiting probability
-#plot(g2_idegree,visit_probability2, main = "Visit Probability for Directed Graph", xlab = "In Degree", ylab = "Visiting Probability")
-#plot(g2_odegree,visit_probability2, main = "Visit Probability for Directed Graph", xlab = "Out Degree", ylab = "Visiting Probability")
-#plot(g2_totdegree,visit_probability2, main = "Visit Probability for Directed Graph", xlab = "Total Degree", ylab = "Visiting Probability")
+plot(g2_idegree,visit_probability2, main = "Visit Probability for Directed Graph", xlab = "In Degree", ylab = "Visiting Probability")
+plot(g2_odegree,visit_probability2, main = "Visit Probability for Directed Graph", xlab = "Out Degree", ylab = "Visiting Probability")
+plot(g2_totdegree,visit_probability2, main = "Visit Probability for Directed Graph", xlab = "Total Degree", ylab = "Visiting Probability")
 
 
 ############################### Part C  ###############################
