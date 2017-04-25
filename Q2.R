@@ -53,12 +53,12 @@ for (i in 1:(num_steps-1)) {
 }
 
 # Plot avg distance and std
-plot(avg_distance , type = "b", main = "Average Distance (n=1,000 & p=0.01)" , ylab = "Distance" ,xlab = "Steps")
-plot(avg_std , type = "b'" , main = "STD (n=1,000 & p=0.01)", ylab = "STD" ,xlab = "Steps")
+plot(avg_distance , type = "b", main = "Average Distance (n=1,000)" , ylab = "Distance" ,xlab = "Steps")
+plot(avg_std , type = "b'" , main = "STD (n=1,000)", ylab = "STD" ,xlab = "Steps")
 
 deg_g1 <- degree(g1)
 diameter_g1 = diameter(g1)
-sprintf("Diameter of network with n = 1,000 & p = 0.01 is : %i", diameter_g1)
+sprintf("Diameter of network with n = 1,000 is : %i", diameter_g1)
 
 ############################## Part e  ##############################
 deg_end_walk = degree(g1 , v = w_mat[ 30, ])
@@ -110,12 +110,12 @@ for (i in 1:(num_steps-1)) {
 }
 
 # Plot avg distance and std
-plot(avg_distance , type = "b", main = "Average Distance (n=100 & p=0.01)" , ylab = "Distance" ,xlab = "Steps")
-plot(avg_std , type = "b'" , main = "STD (n=100 & p=0.01)", ylab = "STD" ,xlab = "Steps")
+plot(avg_distance , type = "b", main = "Average Distance (n=100)" , ylab = "Distance" ,xlab = "Steps")
+plot(avg_std , type = "b'" , main = "STD (n=100)", ylab = "STD" ,xlab = "Steps")
 
 deg_g2 <- degree(g2)
 diameter_g2 = diameter(g2)
-sprintf("Diameter of network with n = 100 & p = 0.01 is : %i", diameter_g2)
+sprintf("Diameter of network with n = 100 is : %i", diameter_g2)
 
 ##############################  Part d with n= 10,000 ############################## 
 
@@ -161,10 +161,10 @@ for (i in 1:(num_steps-1)) {
 }
 
 # Plot avg distance and std
-plot(avg_distance , type = "b", main = "Average Distance (n=10,000 & p=0.01)" , ylab = "Distance" ,xlab = "Steps")
-plot(avg_std , type = "b'" , main = "STD (n=10,000 & p=0.01)", ylab = "STD" ,xlab = "Steps")
+plot(avg_distance , type = "b", main = "Average Distance (n=10,000)" , ylab = "Distance" ,xlab = "Steps")
+plot(avg_std , type = "b'" , main = "STD (n=10,000)", ylab = "STD" ,xlab = "Steps")
 
 deg_g3 <- degree(g3)
 diameter_g3 = diameter(g3)
-sprintf("Diameter of network with n = 10,000 & p = 0.01 is : %i", diameter_g3)
+sprintf("Diameter of network with n = 10,000 is : %i", diameter_g3)
 
