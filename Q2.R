@@ -63,8 +63,8 @@ sprintf("Diameter of network with n = 1,000 is : %i", diameter_g1)
 ############################## Part e  ##############################
 deg_end_walk = degree(g1 , v = w_mat[ 30, ])
 
-hist( x= deg_g1, breaks = seq(from = min(deg_g1), to = max(deg_g1), by=1), main = "Degree Distribution for Graph (n=1,000 & p=0.01)", xlab = "Degree", ylab = "Frequency")
-hist( x= deg_end_walk, breaks = seq(from = min(deg_end_walk), to = max(deg_end_walk), by=1), main = "Degree Distribution at End of Random Walk (n=1,000 & p=0.01)", xlab = "Degree", ylab = "Frequency")
+hist( x= deg_g1, breaks = seq(from = min(deg_g1), to = max(deg_g1), by=1), main = "Degree Distribution for Graph (n=1,000)", xlab = "Degree", ylab = "Frequency")
+hist( x= deg_end_walk, breaks = seq(from = min(deg_end_walk), to = max(deg_end_walk), by=1), main = "Degree Distribution at End of Random Walk (n=1,000)", xlab = "Degree", ylab = "Frequency")
 
 
 ############################## Part d with n = 100 ##############################
